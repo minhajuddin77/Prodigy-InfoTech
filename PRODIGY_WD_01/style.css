@@ -1,0 +1,166 @@
+/* styling.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar-container {
+    border: 1px solid #000; /* Border enclosing the navigation bar and logo */
+    padding: 6px; 
+  }
+  
+  nav {
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a, nav ul li .dropdown-content a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover, nav ul li .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  nav ul li .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  nav ul li .dropdown-content li {
+    float: none;
+  }
+  
+  nav ul li .dropdown-content li a {
+    color: black;
+    padding: 22px 27px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  nav ul li .dropdown-content li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul li:hover .dropdown-content {
+    display: block;
+  }
+  
+  nav ul li.logo {
+    margin-left: auto;
+    padding-right: 20px; 
+  }
+  
+  nav ul li.logo img {
+    height: 75px; /* Logo size */
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+#matter {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.95;
+}
+#about p {
+  font-size: 20px;
+  line-height: 1.9;
+}
+#contact a {
+  background-color: rgb(65, 62, 62);
+  color: white;
+  font-size: 22px;
+}
+#timingsandlocation i {
+  margin-right: 7px;
+}
+#contact i {
+  margin-right: 9px;
+}
+#contact p {
+  line-height: 2;
+  font-size: 22px;
+}
+#contact div {
+  background-color: white;
+  color: #000;
+  text-align: center;
+  line-height: 1.95;
+}
+#timingsandlocation {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.95;
+}
+#mydiv {
+  background-color: #fff;
+  color: rgb rgb(73, 204, 123);
+}
+#mydiv i {
+  color: rgb(85, 120, 30);
+}
+#contact i {
+  color: #ac3506;
+}
+#image  {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  margin: auto;
+  padding-top: 40px;
+}
+input {
+  margin-bottom: 9px;
+  padding: 10px;
+  font-size: 17px;
+}
+button {
+  padding: 11px;
+  font-size: 17px;
+}
+#matter {
+  text-align: center;
+  font-size: 22px;
+}
+p {
+  margin-top: 25px;
+}
