@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    flex-direction: column;
+}
+p {
+    text-align: center;
+    font-size: 19px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px; /* space between h1 and container */
+}
+
+.stopwatch {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 0; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1; 
+    margin: 0 5px; 
+}
+
+button#startStop {
+    background-color: #28a745;
+    color: white;
+}
+
+button#reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+button#lap {
+    background-color: #007bff;
+    color: white;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
