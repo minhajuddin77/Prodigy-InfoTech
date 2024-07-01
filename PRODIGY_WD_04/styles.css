@@ -1,0 +1,186 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #fff; 
+}
+
+.wrapper {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(165, 0, 0);
+    display: flex;
+    justify-content: center; 
+    padding: 2px; 
+    margin: 0; 
+}
+
+nav ul li {
+    margin-right: 24px; /* Space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 25px;
+    line-height: 1.6;
+    padding: 1px 8px; 
+    display: block;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#hero img,
+.project img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #fff; 
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); 
+    border-radius: 50%; 
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.skills-list,
+.experience-item,
+.project {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+    font-size: 22px;
+}
+
+.skills-list ul,
+.experience-item p,
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#hero p {
+    font-size: 21px;
+    line-height: 1.7; 
+}
+
+#experience p {
+    font-size: 20.2px;
+}
+
+#contact li,
+#projects li,
+#skills li {
+    line-height: 1.7;
+}
+
+.project-image {
+    max-width: 110px;
+    height: auto;
+}
+
+#projects a,
+#contact li {
+    font-size: 20px;
+}
+
+#skills h2 {
+    border-bottom: 5px solid rgb(170, 6, 6);
+    padding-bottom: 4.8px;
+    width: 6.5%;
+}
+
+#experience h2 {
+    border-bottom: 5px solid rgb(170, 6, 6);
+    padding-bottom: 5px;
+    width: 13%;
+}
+
+#projects h2 {
+    border-bottom: 5px solid rgb(170, 6, 6);
+    padding-bottom: 5px;
+    width: 9.5%;
+}
+
+#contact h2 {
+    border-bottom: 5px solid rgb(170, 6, 6);
+    padding-bottom: 5px;
+    width: 9.8%;
+}
+
+#contact p, ul {
+    text-align: left;
+}
+
+#projects {
+    line-height: 1.7;
+}
+
+#projects p {
+    font-size: 20.5px;
+}
+
+#experience h3 {
+    font-size: 21.5px;
+}
+
+#skills h3 {
+    font-size: 20.8px;
+}
+
+#contact p {
+    font-size: 21px;
+}
+
+#skills li,
+#projects li {
+    font-size: 21px;
+}
+
+#hero img {
+    border: none;
+}
+
+/* Back-to-top button */
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: rgb(165, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Collapsible sections */
+.collapsed {
+    display: none;
+}
+section h2 {
+    cursor: pointer;
+}
+
+
