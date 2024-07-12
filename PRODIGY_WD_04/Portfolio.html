@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hope.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -51,11 +52,15 @@
         <section id="experience">
             <h2>Experience</h2>
             <div class="experience-item">
-                <h3>Certified as a Networking Professional by Cisco</h3>
+                    <h3 class="experience-title">Web Development Internship</h3>
+                    <p>Worked and made contributions in the Web Development domain as an intern.</p>
+            </div>
+            <div class="experience-item">
+                <h3 class="experience-title">Certified as a Networking Professional by Cisco</h3>
                 <p>Received Certification from Cisco Academy in the field of Networking.</p>
             </div>
             <div class="experience-item">
-                <h3>Runner Up in a Problem-Solving Contest</h3>
+                <h3 class="experience-title">Runner Up in a Problem-Solving Contest</h3>
                 <p>Participated in a problem-solving contest and secured the runner-up position.</p>
             </div>
         </section>
@@ -64,7 +69,7 @@
             <h2>Projects</h2>
             <div class="project">
                 <h3>1. Unit Converter App</h3>
-                <img src="icon.png" height= "200", width="190">
+                <img src="C:\Users\computer\Desktop\PRODIGY_WD_04\image.png" height= "200", width="190">
                 <p>Developed a Unit Converter app using Java and XML.<br>
                 <ul>
                     <li>This app provides wide variety of units for each measurement category.</li>
@@ -90,13 +95,23 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>Feel free to check out my work and connect with me through these platforms.</p>
-            <ul>
-                <li><a href="mailto:syedminhaj29@gmail.com" style="color:rgb(170, 6, 6);">Mail ID</a></li>
-                <li><a href="https://www.linkedin.com/in/syed-minhajuddin-068a251b9" style="color:rgb(170, 6, 6);" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/minhajuddin77" style="color:rgb(170, 6, 6);" target="_blank">GitHub</a></li>
-            </ul>
+            
+
+            <p class="para"><a href="mailto:syedminhaj29@gmail.com" style="color: #424242;"><i class="fa-solid fa-envelope" style="font-size: 33px;"></i></a><br>
+                <a href="https://www.linkedin.com/in/syed-minhajuddin-068a251b9" style="color: #424242;" target="_blank"><i class="fa-brands fa-linkedin" style="font-size: 33px;"></i></a><br>
+                <a href="https://github.com/minhajuddin77" style="color: #424242;" target="_blank"><i class="fa-brands fa-github" style="font-size: 33px;"></i></a>
+            </p>
+                <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+                </form>
+                
+            <button class="back-to-top" id="backToTop">Back to Top</button>
+
+        
         </section>
-    </div>
 
     <script src="script.js"></script>
 </body>
