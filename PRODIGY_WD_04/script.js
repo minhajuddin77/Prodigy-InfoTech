@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 a.classList.add("active");
             }
         });
-    };
 
     // Back-to-top button
     const backToTopButton = document.createElement("button");
