@@ -1,7 +1,7 @@
 body, ul {
     margin: 0;
     padding: 0;
-    background-color: #121212; 
+    background-color: #000000; 
     color: #fff; 
 }
 
@@ -10,6 +10,7 @@ body, ul {
     margin: 0 auto;
 }
 
+/* Navigation styles */
 nav {
     text-align: center;
     margin-bottom: 20px;
@@ -25,11 +26,11 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 24px; /* Space between items */
+    margin-right: 24px;
 }
 
 nav ul li:last-child {
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 nav ul li a {
@@ -58,6 +59,28 @@ section {
 section h2 {
     margin-bottom: 20px;
     font-size: 25px;
+    cursor: pointer;
+}
+
+#experience h2 {
+    border-bottom: 5px solid rgb(170, 6, 6);
+    padding-bottom: 5px;
+    width: 13%;
+}
+
+#experience h3.experience-title {
+    position: relative;
+    padding-left: 2px; /* Space for bullet */
+    margin-bottom: 10px;
+    font-size: 21.5px;
+}
+
+#experience h3.experience-title::before {
+    content: '•'; /* Bullet character */
+    position: absolute;
+    left: -16px;
+    color: rgb(255, 255, 255); /* Bullet color */
+    font-size: 22px; /* Bullet size */
 }
 
 .skills-list,
@@ -84,7 +107,7 @@ section h2 {
 }
 
 #experience p {
-    font-size: 20.2px;
+    font-size: 21px;
 }
 
 #contact li,
@@ -107,12 +130,6 @@ section h2 {
     border-bottom: 5px solid rgb(170, 6, 6);
     padding-bottom: 4.8px;
     width: 6.5%;
-}
-
-#experience h2 {
-    border-bottom: 5px solid rgb(170, 6, 6);
-    padding-bottom: 5px;
-    width: 13%;
 }
 
 #projects h2 {
@@ -139,10 +156,6 @@ section h2 {
     font-size: 20.5px;
 }
 
-#experience h3 {
-    font-size: 21.5px;
-}
-
 #skills h3 {
     font-size: 20.8px;
 }
@@ -160,13 +173,53 @@ section h2 {
     border: none;
 }
 
+form {
+    display:flex ;
+    flex-direction: column;
+}
+
+.para {
+    line-height: 1.7;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    position: relative;
+    left: 25%;
+}
+
+button {
+    font-size: 19px;
+    padding: 9px;
+    margin: 8px;
+    width: 15%;
+    margin-left: 12px;
+    margin-right: auto;
+    background-color: rgb(170, 6, 6);
+    border-style: hidden;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input,textarea {
+    padding: 14px;
+    margin: 12px;
+    font-size: 17px;
+    background-color: rgb(33, 33, 33);
+    border-style: hidden;
+}
+
+textarea {
+    font-size: 17.5px;
+}
+
 /* Back-to-top button */
 .back-to-top {
     display: none;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px 15px;
+    height: 45px;
+    width: 60px;
     background-color: rgb(165, 0, 0);
     color: #fff;
     border: none;
@@ -178,9 +231,6 @@ section h2 {
 /* Collapsible sections */
 .collapsed {
     display: none;
-}
-section h2 {
-    cursor: pointer;
 }
 
 
